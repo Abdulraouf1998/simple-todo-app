@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.todo-area {
+    padding: 20px;
+    background-color: rgb(119, 66, 168);
+    border-radius: 10px;
+}
+.input-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-area input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.input-area button {
+    width: 15%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.todo-area .delete {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 15px;
+    cursor: pointer;
+}
+.todo-area div {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.todo-area div p {
+    font-size: 20px;
+}
